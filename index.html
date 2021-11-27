@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <nav class="blue">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Tour&Travel</a>
+                    <a href="#" data-target="slide-out" 
+                    class="sidenav-trigger">
+                    <i class="material-icons">menu</i></a>
+
+                    <ul class=" right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#popular">Popular Places</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#special">Special place</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                     </ul>
+             </div>
+         </div>
+     </nav>
+</div>
+<!-- sidenav -->
+<ul class="sidenav" id="slide-out">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#popular">Popular Places</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#special">Special place</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#booking">Booking</a></li>
+    
+</ul>    
+
+<!-- banner part  -->
+<!-- midea-> slider -->
+
+<div class="slider" id="home">
+    <ul class="slides">
+      <li>
+        <img src="img/resort3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>Take Your Dream Vacation!</h2>
+          <h5 class="light grey-text text-lighten-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, aliquid.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h2>Enjoy Your Holidays With Us!</h2>
+          <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, hic..</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort1.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h2>Take Your Dream Vacation!</h2>
+          <h5 class="light grey-text text-lighten-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, quas.</h5>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+  <!-- popular places -->
+  
+      <div class="container" id="popular">
+       <div class="row">
+        <h2 class="center"> <span class="blue-text">Popular</span>  Places </h2>
+           <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/resort1.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Beach View 1<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Sun Rise<i class="material-icons right">close</i></span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/resort2.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Beach View 2<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Day<i class="material-icons right">close</i></span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/resort3.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Beach View 3<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Sun Set<i class="material-icons right">close</i></span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+        </div>
+       </div>
+      </div>
+  
+
+  <!-- Gallery -->
+  <div class="container" id="gallery">
+    <div class="carousel">
+        <h2 class="center"><span class="blue-text" >Gallery</span> Images</h2>
+        <a class="carousel-item" href="#one!"><img src="img/resort1.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="img/resort2.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="img/resort3.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="img/resort1.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="img/resort2.jpg"></a>
+      </div>
+
+  </div>
+
+  <!-- Special place -->
+   <div class="container" id="special">
+    <h2 class="center"><span class="blue-text" >Special</span> Places</h2>
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/resort2.jpg"></div>
+      </div>
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax</h2>
+          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/resort1.jpg"></div>
+      </div>
+
+   </div>
+
+   <!-- social media -->
+   <div class="container blue center white-text">
+       <div class="row">
+           <div class="col s12">
+               <h4 >
+                   Follow Tour&Travel
+               </h4>
+               <p>Follow us on social media for special offers</p>
+                <a class="btn-floating pulse white-text black"><i class="material-icons">facebook</i></a>
+         </div>
+        
+         </div>
+   </div>
+    
+   <!-- Floating Action Button -->
+   
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+      
+  <!-- Contact -->
+  <div class="container" id="contact">
+      <div class="row">
+        <h2 class="center"><span class="blue-text" >Contact</span> </h2>
+          <div class="col s12 m6">
+              <div class="blue white-text center">
+                   <i class="large material-icons">phone_in_talk</i>
+                  <h4 >Contact Us For Booking</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus. Sit, mollitia quo. Veniam repellat voluptas ipsum doloremque?</p>
+              </div>
+          </div>
+
+          <div class="col s12 m6">
+            <table>
+                <thead>
+                  <tr>
+                      <th><i class=" material-icons">location_on</i> Location  </th>
+                      
+                  </tr>
+                </thead>
+        
+                <tbody>
+                  <tr>
+                    <td>Tour&Travel Agency</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>555 Beach rd, Suite 33</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>Miami FL, 55555</td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+
+  </div>
+
+  <!-- booking -->
+  <div class="container " id="booking">
+    <h4 class="center"><span class="blue-text" >For booking please fill out this form</span> </h4>
+
+    <div class="row ">
+        <form class="col s12  ">
+          <div class="row">
+            <div class="input-field col s6 ">
+              <input placeholder="Name" id="first_name" type="text" class="validate">
+              <label for="first_name" class="black-text">First Name</label>
+            </div>
+           
+          </div>
+
+          <div class="row ">
+            <div class="input-field col s6 ">
+              <input placeholder="Email" id="first_name" type="text" class="validate">
+              <label for="first_name" class="black-text">Email</label>
+            </div>
+        </div>
+
+          <div class="row ">
+            <div class="input-field col s6 ">
+              <input placeholder="Phone Number" id="first_name" type="text" class="validate">
+              <label for="first_name" class="black-text">Phone Number</label>
+            </div>
+           
+          </div>
+
+          <div class="row ">
+            <div class="input-field col s6 ">
+              <input placeholder="Message" id="first_name" type="text" class="validate">
+              <label for="first_name" class="black-text">
+                Message
+                </label>
+            </div>
+           
+          </div>
+
+          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+
+         </form>
+      </div>
+ </div>
+
+ <!-- Message -->
+ <div class="container">
+    <h4 class="center"><span class="blue-text" >Any problems write here</span> </h4>
+    <div class="row">
+        <div class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">textsms</i>
+              <input type="text" id="autocomplete-input" class="autocomplete">
+              <label for="autocomplete-input">Complained Box</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ </div>
+
+ <!-- footer -->
+ <div>
+    <footer class="page-footer blue">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Thanx for visiting</h5>
+              <p class="grey-text text-lighten-4">Don't have a good day,have a great day.<i class="material-icons">sentiment_very_satisfied</i></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Menu</h5>
+              <ul >
+                       <li><a class="white-text" href="#home">Home</a></li>
+                        <li><a class="white-text" href="#popular">Popular Places</a></li>
+                        <li><a class="white-text" href="#gallery">Gallery</a></li>
+                        <li><a class="white-text" href="#special">Special place</a></li>
+                        <li><a class="white-text" href="#contact">Contact</a></li>
+                        <li><a class="white-text" href="#booking">Booking</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container center">
+          © Copyright By Sushmoy Ghosh
+          
+          </div>
+        </div>
+      </footer>
+ </div>
+ 
+
+   
+  <!-- JQURY ALL VERSION 1.12.4 -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="js/custom.js"></script>
+</body>
+</html>
